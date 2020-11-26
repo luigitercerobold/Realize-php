@@ -1,7 +1,11 @@
 <?php
 ini_set('display_errors', 0);
-error_reporting(E_ALL);$senderMail = 'hello@realizeservice.com';$from = $senderMail;
-$to = $senderMail;$subject = "Contacto desde sitio web Realize";$message = '
+error_reporting(E_ALL);
+$senderMail = 'hello@realizeservice.com';
+$from = $senderMail;
+$to = $senderMail;
+$subject = "Contacto desde sitio web Realize";
+$message = '
           <html>
             <head>
               <title>Contacto Realize</title>
@@ -26,13 +30,16 @@ $to = $senderMail;$subject = "Contacto desde sitio web Realize";$message = '
               </table>
              </body>
            </html>
-     ';$headers = 'MIME-Version: 1.0' . "\r\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";$headers .= 'To: Contacto Realize <'.$to.'>' . "\r\n";
-$headers .= 'From: Contacto Realize <'.$from.'>' . "\r\n";$result = mail($to, $subject, $message, $headers);
+     ';
+$headers = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+$headers .= 'To: Contacto Realize <' . $to . '>' . "\r\n";
+$headers .= 'From: Contacto Realize <' . $from . '>' . "\r\n";
+$result = mail($to, $subject, $message, $headers);
 if ($result) {
-    echo 'ok';
-    header('Location: '.'https://realizeservice.com/index.html');
-    die();
+  echo 'ok';
+  header('Location: ' . 'https://realizeservice.com/index.html');
+  die();
 } else {
-    echo 'error';
+  echo 'error';
 }

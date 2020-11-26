@@ -25,11 +25,11 @@
     padding-top: 4.5em;
     padding-bottom: 4.5em;
     width: 100%;
-    height: auto;
-    display: block;
+    //height: auto;
+    //display: block;
     background-color: #3c5399;
 }
-.footer h3{
+.footer p{
     font-family: Hoves-Light;
     font-weight: normal !important;
     @media screen and (min-width: 900px) {
@@ -42,93 +42,43 @@
         font-size: 2rem;
     }
 }
-.swiper-container {
-    opacity: 1;
-    bottom: 0;
-    position: absolute;
-    float: left;
-    height: auto;
-    display: block;
-    transition: all 0.5s;
-    @media screen and (min-width: 320px) {
-        width: 320px;
-        height: 300px;
-    }
-    @media screen and (min-width: 360px) {
-        width: 360px;
-        height: 250px;
-    }
-    @media screen and (min-width: 375px) {
-        width: 375px;
-        height: 280px;
-    }
-    @media screen and (min-width: 400px) {
-        width: 411px;
-        height: 340px;
-    }
-    @media screen and (min-width: 414px) {
-        width: 414px;
-        height: 350px;
-    }
-    @media screen and (min-width: 768px) {
-        width: 768px;
-        height: 420px;
-    }
-    @media screen and (min-width: 900px) {
-        width: 900px;
-        height: 480px;
-    }
-    @media screen and (min-width: 1024px) {
-        width: 1024px;
-        height: 500px;
-    }
-    @media screen and (min-width: 1124px) {
-        width: 1124px;
-        height: 500px;
-    }
-    @media screen and (min-width: 1224px) {
-        width: 1224px;
-        height: 500px;
-    }
-    @media screen and (min-width: 1324px) {
-        width: 1366px;
-        height: 400px;
-    }
 
-    @media screen and (min-width: 1424px) {
-        width: 1424px;
-        height: 500px;
-    }
-    @media screen and (min-width: 1524px) {
-        width: 1524px;
-        height: 500px;
-    }
-}
-.uno{
-    flex: 2;
+.swiper-container {
+ 
+    float: left;
+    z-index:0 ;
+    overflow: hidden;
+    max-height: 350px;
     position: relative;
-    width: 100%;
-    .blackboxjeje{
-        background-color: black;
-        opacity: 1;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        z-index: 1;
-        left: 0;
-        right: 0;
-        animation: rollUp 2s forwards .5s;
-        width: 100%;
-        height: 100%;
-        -webkit-transition: top cubic-bezier(1,0,.34,.99),-webkit-transform 0.4s cubic-bezier(0.950, 0.050, 0.795, 0.035) 0.3s;
-        transition:top cubic-bezier(1,0,.34,.99),-webkit-transform 0.4s cubic-bezier(0.950, 0.050, 0.795, 0.035) 0.3s;
-    }
+
+}
+
+.swiper-button-next{
+    color:#5b5b5e !important;
+    opacity: 0;
+    animation: arrowUp 0.5s forwards 2.5s;
+    font-size: 1em !important;
+    width: 6em !important;
+    height: 6em !important;
+    border-radius: 50%;
+    background-color: black;
+
+}
+.swiper-button-prev{
+    color:#5b5b5e !important;
+    opacity: 0;
+    animation: arrowUp 0.5s forwards 2.5s;
+    font-size: 1em !important;
+    width: 6em !important;
+    height: 6em !important;
+    border-radius: 50%;
+    background-color: black;
+
 }
 .dos{
-    position: relative;
-    flex: 1;
-    width: 100%;
+    display:flex;
 }
+
 .textX{
     opacity: 0 !important;
 }
@@ -193,11 +143,9 @@
     color: #3c5399;
     font-size: 2rem;
 }
-.wrapper{
-    width: 100%;
-    height: 100% !important;
-    display: grid;
-}
+
+
+
 .swiper-slide {
     height: auto !important;
     text-align: right;
@@ -205,15 +153,15 @@
     .blackbox{
         background-color: black;
         opacity: 1;
-        position: absolute;
+     
         top: 0;
         bottom: 0;
-        z-index: 1;
+      
         left: 0;
         animation: rollLeft 2s forwards .5s;
         animation-delay: 1s;
         right: 0;
-        z-index: 999999999999999999999999999999999999;
+      
         width: 100%;
         height: 100%;
         -webkit-transition: top 3.5s cubic-bezier(0.010, 0.025, 0.795, 0.835) 3s,-webkit-transform 0.4s cubic-bezier(0.950, 0.050, 0.795, 0.035) 0.3s;
@@ -245,10 +193,10 @@
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
 }
-.swiper-slide h1:hover ~ img{
+.swiper-slide h2:hover ~ img{
     opacity: 0.7;
 }
-.swiper-slide h1{
+.swiper-slide h2{
 text-align: right;
     top:40%;
     left: 20%;
@@ -401,7 +349,7 @@ header{
         width: 100%;
     }
 
-    .swiper-slide h1{
+    .swiper-slide h2{
         text-align: center;
     }
 
@@ -437,38 +385,7 @@ header{
     background-color: #5B5B5E;
     display: block;
 }
-.swiper-button-next{
-    color:#5b5b5e !important;
-    opacity: 0;
-    animation: arrowUp 0.5s forwards 2.5s;
-    font-size: 1em !important;
-    width: 6em !important;
-    height: 6em !important;
-    border-radius: 50%;
-    background-color: black;
-    @media screen and (min-width : 320px){
-        top: 25% !important;
-    }
-    @media screen and (min-width : 900px){
-        top: 50% !important;
-    }
-}
-.swiper-button-prev{
-    color:#5b5b5e !important;
-    opacity: 0;
-    animation: arrowUp 0.5s forwards 2.5s;
-    font-size: 1em !important;
-    width: 6em !important;
-    height: 6em !important;
-    border-radius: 50%;
-    background-color: black;
-    @media screen and (min-width : 300px){
-        top: 25% !important;
-    }
-    @media screen and (min-width : 900px){
-        top: 50% !important;
-    }
-}
+
 .casos{
     width: 100%;
     height: auto;
@@ -1358,10 +1275,7 @@ cursor: pointer;
         margin-top: 5%;
     }
 }
-.row{
-    /*overflow-y: hidden;
-    display: flex;*/
-}
+
 .box{
     margin-top: 7.5%;
     width: 100%;
@@ -1470,33 +1384,16 @@ cursor: pointer;
         height: 100px;
     }
 }
-.dropdown-content h3{
-    margin-left: 5%;
-    line-height: 3em;
-    text-align: left;
-    color: #3c5399;
-}
-.sec{
-    //margin-left: auto !important;
-    //margin-right: auto !important;
-    //@media screen and (min-width: 900px){
-    //    margin-left: 2% !important;
-    //}
-    @media screen and (min-width: 300px) {
-        margin-left: auto;
-        margin-right: auto;
-        transform: translateX(1%);
-    }
-    @media screen and (min-width: 900px) {
-        transform: translateX(1%);
-    }
-    @media screen and (min-width: 1500px) {
-        transform: translateX(1%);
-    }
-    @media screen and (min-width: 2500px) {
-        transform: translateX(0.8%);
+.dropdown-content{
+    .title {
+        margin-left: 5%;
+        line-height: 3em;
+        text-align: left;
+        color: #3c5399;
     }
 }
+    
+
 .dropdown-content:hover{
     opacity: 1;
     visibility: visible;
@@ -1507,7 +1404,7 @@ cursor: pointer;
     color: white;
 }
 
-.footinfo h3{
+.footinfo p{
     justify-self: center;
     align-self: center;
     display: block;
@@ -1518,43 +1415,13 @@ cursor: pointer;
 .customMarginLeft{
     margin-left: 5%;
 }
-.forceBottom{
-    padding-top: 2em;
-    @media screen  and (min-width: 900px){
-        position: absolute;
-        padding-top: 2em;
-        left: 0;
-        right: 0;
 
-    }
-    @media screen  and (min-width: 300px){
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-}
 .verticalPadding{
     padding-top: 0.6%;
     padding-bottom: 0.6%;
 }
-.horizontalPadding{
-    @media screen and (min-width: 200px) {
-        margin-left: 0;
-    }
-    @media screen and (min-width: 900px){
-        transform: translateX(5%);
-    }
-    @media screen and (min-width: 1500px){
-        transform: translateX(6.5%);
 
-    }
-    @media screen and (min-width: 2400px){
-        transform: translateX(7%);
-    }
-}
-.paddinitoTop{
-    padding-top: 4%;
-}
+
 .logow{
     @media screen and (min-width: 900px) {
         padding-top: 2.5em;
@@ -1766,7 +1633,7 @@ cursor: pointer;
     transition: all 0.5s;
 }
 @media screen and (min-width: 900px){
-    .swiper-slide h1{
+    .swiper-slide h2{
         text-align: right;
     }
 
@@ -1977,9 +1844,7 @@ cursor: pointer;
     .wrapper{
         margin-top: 8%;
     }
-    .swiper-container{
-        width: 1800px;
-    }
+  
     #gallery{
         margin-top: 5%;
         max-width: 22vw;
@@ -2004,8 +1869,7 @@ cursor: pointer;
 }
 @media screen and (min-width: 1800px){
     .swiper-container{
-        margin-top: -5%;
-        width: 2000px;
+      
         height: 500px;
     }
     #gallery{
@@ -2061,7 +1925,7 @@ cursor: pointer;
 @media screen and (min-width: 2000px){
     .swiper-container{
         margin-top: 0%;
-        width: 2400px;
+    
     }
     .circlel{
         font-size: 85px;
@@ -2129,12 +1993,11 @@ cursor: pointer;
 }
 @media screen and (min-width: 2500px){
     .swiper-container{
-        width: 2500px;
+     
         height: 600px;
     }
     .swiper-slide{
-        width: 800px;
-        height: 600px;
+      height: 600px;
     }
     .swiper-slide img{
         width: 800px;

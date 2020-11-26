@@ -1,7 +1,7 @@
 <header>
-<div id="nav-placeholder" >
+  <div id="nav-placeholder">
 
-</div>
-<?include 'nav.php'?>
+  </div>
+  <?include 'nav.php'?>
 
 </header>

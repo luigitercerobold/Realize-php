@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <title>Realize - Big Notes</title>
     <?include 'include/meta.php'?>
-<body  >
-<?include 'include/header.php'?>
-<section class="ini">
-    <div class="container animate-left">
-        <h1>Big Notes</h1>
-    </div>
-</section>
-<section class="last">
-    <div class="container">
+
+<body>
+    <?include 'include/header.php'?>
+    <section class="ini">
+        <div class="container animate-left">
+            <h1>Big Notes</h1>
+        </div>
+    </section>
+    <section class="last">
+        <div class="container">
             <div class="row" style="overflow-x: hidden;">
                 <div class="col-lg-4 col-md-12 col-12">
                     <img src="./assets/img/bn.jpg" style="width: 100%;object-fit: cover;" alt="">
@@ -52,7 +54,7 @@
             <div class="hozline2 "></div>
 
             <div class="row">
-                <div class="col-lg-4 col-md-12 col-12" >
+                <div class="col-lg-4 col-md-12 col-12">
                     <img src="./assets/img/bn3.jpg" style="width: 100%;object-fit: cover;" alt="">
                 </div>
                 <div class="col-lg-8 col-md-12 col-12">
@@ -71,7 +73,7 @@
             <div class="hozline2 "></div>
 
             <div class="row">
-                <div class="col-lg-4 col-md-12 col-12" >
+                <div class="col-lg-4 col-md-12 col-12">
                     <img src="./assets/img/bn4.jpg" style="width: 100%;object-fit: cover;" alt="">
                 </div>
                 <div class="col-lg-8 col-md-12 col-12">
@@ -90,10 +92,11 @@
 
             <div class="hozline2 "></div>
 
-    </div>
-</section>
-<?include 'include/footer.php'?>
+        </div>
+    </section>
+    <?include 'include/footer.php'?>
 
-<?include 'include/end.php'?>
+    <?include 'include/end.php'?>
 </body>
+
 </html>

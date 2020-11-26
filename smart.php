@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Realize - Smart</title>
     <?include 'include/meta.php'?>
 </head>
+
 <body>
-<?include 'include/header.php'?>
+    <?include 'include/header.php'?>
     <div data-router-view="wraperHome">
         <section class="imagen">
             <div class="container">
                 <div class="myimg animate-top">
                     <div class="graybox">
-                        <h1>Revenue  </h1>
+                        <h1>Revenue </h1>
                         <h1>Management</h1>
                         <div class="circle">
                             <i style="margin-top: 10%; color: #58595B; font-size: 20px;" class="fas fa-chevron-down"></i>
@@ -22,7 +24,7 @@
         </section>
         <section class="info ">
             <div class="container">
-                <h1 >Cambiar de precios es la forma más fácil de aumentar las utilidades de tu negocio, ¿lo aprovechas?</h1>
+                <h1>Cambiar de precios es la forma más fácil de aumentar las utilidades de tu negocio, ¿lo aprovechas?</h1>
                 <span style="margin-top:5%;font-size: 52px; color: #3c5399;font-weight: bold;">-</span>
                 <div class="mip">
                     <p> <span style="font-weight: bold;"> La herramienta de Revenue Management de Realize</span> ayuda a nuestros clientes a identificar oportunidades
@@ -95,7 +97,7 @@
                                 </p>
                                 <p>
                                     La elasticidad cruzada con otros productos propios y
-                                    de la competencia para  encontrar los precios óptimos en base a la predicción de
+                                    de la competencia para encontrar los precios óptimos en base a la predicción de
                                     demanda, ingresos, utilidades y margen, ponderándolos
                                     en base a la estrategia personalizada del cliente
                                 </p>
@@ -111,4 +113,5 @@
     <?include 'include/footer.php'?>
     <?include 'include/end.php'?>
 </body>
+
 </html>

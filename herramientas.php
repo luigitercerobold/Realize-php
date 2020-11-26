@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
+
     <title>Realize - Home</title>
 
     <?include 'include/meta.php'?>
 </head>
-<body >
+
+<body>
     <?include 'include/header.php'?>
 
     <section class="ini cards-container">
@@ -85,4 +87,5 @@
     <?include 'include/end.php'?>
 
 </body>
+
 </html>
