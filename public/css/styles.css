@@ -1760,18 +1760,6 @@ header {
   }
 }
 
-@media screen and (min-width: 300px) {
-  .dropheigh {
-    height: 50vh;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .dropheigh {
-    height: 30vh;
-  }
-}
-
 .dropdown-content {
   padding-top: 24em;
   padding-bottom: 33em;
@@ -2025,14 +2013,6 @@ header {
     text-align: right;
     margin-top: 0%;
     font-size: 4rem;
-  }
-  .title {
-    height: 35vh;
-    overflow: hidden;
-    overflow-y: hidden;
-    -webkit-transform: translateY(0);
-    margin-top: -18%;
-    margin-bottom: 0%;
   }
   .title .sub-headline {
     margin-top: -10%;

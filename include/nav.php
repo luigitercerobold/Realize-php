@@ -19,14 +19,14 @@
 
                         <div class="dropdown-content ">
                             <div class="row">
-                                <div class="col-lg-2 ">
+                                <div class="col-lg-6 ">
                                     <p class="title">Comercial</p>
                                     <p><a style="color: #58595B" href="./madurez.php">Madurez Digital</a></p>
                                     <p><a style="color: #58595B" href="./loyalty.php">Loyalty</a></p>
                                     <p><a style="color: #58595B" href="./smart.php">Revenue Management</a></p>
                                     <br>
                                 </div>
-                                <div class="col-lg-2" style="justify-content: flex-start;">
+                                <div class="col-lg-6" style="justify-content: flex-start;">
                                     <p class="title">Operaciones</p>
                                     <p><a style="color: #58595B" href="./supply.php">Supply Chain Management</a></p>
                                     <p><a style="color: #58595B" href="./tool-waste.php">Warehouse Management</a></p>
