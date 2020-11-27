@@ -19,7 +19,7 @@
     <div >
         <div>
          
-            <div class="container" style="margin-top: 120px;">
+            <div class="container" style="margin-top: 125px;">
                 <h1 class="subtitulo">¿A dónde puede llevarnos la información?</h1>
                 <div class="headline-description">
                     <h2 class="textopeque" onclick="location.href='./herramientas.php';">Vamos a descubrirlo.</h2>

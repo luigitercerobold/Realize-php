@@ -18,16 +18,6 @@
   src: url("./assets/Fonts/TT-Hoves-SemiBold.otf");
 }
 
-.nav {
-  z-index: 999;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #f6f7f8;
-}
-
 .footer {
   padding-top: 4.5em;
   padding-bottom: 4.5em;
@@ -1646,7 +1636,7 @@ header {
   /* Firefox */
   width: 100%;
   background-color: #f6f7f8;
-  z-index: 99;
+  z-index: 1;
 }
 
 .dropdown-content p {
@@ -1656,37 +1646,12 @@ header {
   font-family: Hoves-Regular;
 }
 
-@media screen and (min-width: 300px) {
-  .dropdown-content p {
-    height: 40px;
-    font-size: 1px;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .dropdown-content p {
-    height: 34px;
-    font-size: 15em;
-  }
-}
-
-@media screen and (min-width: 1500px) {
-  .dropdown-content p {
-    height: 34px;
-  }
-}
-
-@media screen and (min-width: 2500px) {
-  .dropdown-content p {
-    height: 100px;
-  }
-}
-
 .dropdown-content .title {
   margin-left: 5%;
   line-height: 3em;
   text-align: left;
   color: #3c5399;
+  font-size: 15px;
 }
 
 .dropdown-content:hover {
@@ -1714,7 +1679,7 @@ header {
 }
 
 .tcenter {
-  text-align: center;
+  text-align: left;
 }
 
 .customMarginLeft {
@@ -1761,8 +1726,6 @@ header {
 }
 
 .dropdown-content {
-  padding-top: 24em;
-  padding-bottom: 33em;
   margin-left: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1786,37 +1749,12 @@ header {
   position: fixed;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 9999999999999999999999999;
+  z-index: 1;
   opacity: 0;
-  /*animation: fadeDownDrop .3s forwards;*/
-}
-
-@media screen and (min-width: 300px) {
-  .dropdown-content {
-    line-height: 15px;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .dropdown-content {
-    line-height: 20px;
-  }
-}
-
-@media screen and (min-width: 1500px) {
-  .dropdown-content {
-    line-height: 35px;
-  }
-}
-
-@media screen and (min-width: 1500px) {
-  .dropdown-content {
-    line-height: 30px;
-  }
 }
 
 .logo {
-  z-index: 999999;
+  z-index: 1;
   width: 50%;
   background-color: rgba(0, 0, 0, 0);
   padding-bottom: 2%;
@@ -1980,7 +1918,10 @@ header {
   transition: all 0.5s;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 992px) {
+  .menu-toggle {
+    display: none;
+  }
   .swiper-slide h2 {
     text-align: right;
   }
@@ -2137,9 +2078,6 @@ header {
     position: fixed;
     color: white;
     font-size: 5rem;
-  }
-  .menu-toggle {
-    display: none;
   }
   .nav-list {
     opacity: 1 !important;

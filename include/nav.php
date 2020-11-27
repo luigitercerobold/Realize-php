@@ -53,19 +53,3 @@
     </div>
 </div>
 
-<script>
-    var element = document.getElementById('menucontentjeje');
-    $('.menu-toggle').click(function() {
-        if (window.getComputedStyle(element).getPropertyValue('opacity') === "0") {
-            element.style.maxHeight = "160px";
-            element.style.height = "160px";
-            element.style.opacity = "1";
-            // $('.nav-list').animate({"max-height": "auto"},{duration:200});
-            // $('.nav-list').css('opacity','1','1s');
-        } else {
-            element.style.maxHeight = "0";
-            element.style.height = "0";
-            element.style.opacity = "0";
-        }
-    });
-</script>

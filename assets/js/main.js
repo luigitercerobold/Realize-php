@@ -42,10 +42,7 @@ var mySwiper2 = new Swiper('#swiper-container2', {
 })
 
 
-$('.menu-toggle').click(function() {
-    $('.nav-list').animate({"height": "auto"},{duration:200});
-    $('.nav-list').css('opacity','1','1s');
-});
+
 $( document ).ready(function() {
    // document.getElementById('block1').style.transform="translateY(50%)";
     $('#logo').css('opacity','0');
@@ -54,12 +51,22 @@ $( document ).ready(function() {
         $('#logo').trigger('click');
     });
 
-    $('.menu-toggle').click(function() {
-        $('.nav-list').animate({"height": "auto"},{duration:200});
-        $('.nav-list').css('opacity','1','1s');
-    });
 
+});
 
+var element = document.getElementById('menucontentjeje');
+$('.menu-toggle').click(function() {
+    if (window.getComputedStyle(element).getPropertyValue('opacity') === "0") {
+        element.style.maxHeight = "160px";
+        element.style.height = "160px";
+        element.style.opacity = "1";
+
+    } else {
+        
+        element.style.opacity = "0";
+        element.style.maxHeight = "0";
+        element.style.height = "0";
+    }
 });
 
 
