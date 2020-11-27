@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Realize - Porque</title>
+    <title>Realize - ¿Por qué?</title>
     <?include 'include/meta.php'?>
 </head>
 
@@ -83,8 +83,8 @@
                 </div>
                 <div class="col-lg-7 col-md-12 col-12">
                     <div class="opt ">
-                        <h1>Vamos a optimizar.</h1>
-                        <h3>Descubra todo el potencial de su empresa.</h3>
+                        <h2 class="title">Vamos a optimizar.</h2>
+                        <p class="parrafo">Descubra todo el potencial de su empresa.</p>
                         <a href="herramientas.php" class="yellow-button">Conozca nuestros servicios</a>
                     </div>
                 </div>
