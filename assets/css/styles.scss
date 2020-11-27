@@ -1,19 +1,19 @@
 
 @font-face {
     font-family: 'Hoves-Light';
-    src: url('./assets/Fonts/TT-Hoves-Light.otf');
+    src: url('../Fonts/TT-Hoves-Light.otf');
 }
 @font-face {
     font-family: 'Hoves-Medium';
-    src: url('./assets/Fonts/TT-Hoves-Medium.otf');
+    src: url('../Fonts/TT-Hoves-Medium.otf');
 }
 @font-face {
     font-family: 'Hoves-Regular';
-    src: url('./assets/Fonts/TT-Hoves-Regular.otf');
+    src: url('../Fonts/TT-Hoves-Regular.otf');
 }
 @font-face {
     font-family: 'Hoves-SemiBold';
-    src: url('./assets/Fonts/TT-Hoves-SemiBold.otf');
+    src: url('../Fonts/TT-Hoves-SemiBold.otf');
 }
 
 .footer{
@@ -198,7 +198,7 @@ text-align: right;
     right: 10%;
     position: absolute;
     display: block;
-    z-index: 99999;
+    z-index: 2;
     color: white;
     font-size: 3.5rem;
 }
@@ -415,7 +415,7 @@ header{
 }
 .optimizar{
     width: 100%;
-    background-image: url("./assets/img/imgporquegrande.jpeg");
+    background-image: url("./../img/imgporquegrande.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -450,34 +450,34 @@ header{
 }
 .covid{
     width: 100%;
-    background-image: url("./assets/img/covi.png");
+    background-image: url("./../img/covi.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .firstimg{
     width: 100%;
-    background-image: url("./assets/img/waste.png");
+    background-image: url("./../img/waste.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
 }
 .secimg{
     width: 100%;
-    background-image: url("./assets/img/rutas.png");
+    background-image: url("./../img/rutas.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
 }
 .terimg{
     width: 100%;
-    background-image: url("./assets/img/recursos.png");
+    background-image: url("./../img/recursos.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
 }
 .cuartimg{
     width: 100%;
-    background-image: url("./assets/img/mapping.jpeg");
+    background-image: url("./../img/mapping.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -591,16 +591,16 @@ header{
     width: 100%;
     overflow-x: hidden;
 }
-.infoDesc3 h1{
+.infoDesc3 .title{
     font-family: Hoves-SemiBold;
     color: #3c5399;
     font-size: 3.5rem;
     font-weight: bold;
 }
-.infoDesc3 h2{
+.infoDesc3 .parrafo{
     cursor: pointer;
     width: 100%;
-    z-index: 999999999999;
+   
     bottom: -3%;
     position: absolute;
     font-family: Hoves-Light;
@@ -776,12 +776,12 @@ header{
     width: 53%;
     font-size: 2rem;
 }
-.res2 h1{
+.res2 .subtitulo{
     width: 100%;
     color: white;
-    font-size: 6rem;
+    font-size: 5rem;
 }
-.res2 p{
+.res2 .parrafo{
     margin-left: 14%;
     color: white;
     width: 73%;
@@ -819,7 +819,7 @@ header{
     margin-bottom: 5%;
 }
 .mip{
-    margin-left: 3%;
+   
     margin-top: 5%;
     text-align: left;
 }
@@ -835,7 +835,7 @@ header{
     z-index: -1;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("./assets/img/imgporque.jpg");
+    background-image: url("./../img/imgporque.jpg");
     justify-content: flex-end;
     align-items: end;
 }
@@ -845,7 +845,7 @@ header{
     z-index: -1;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("./assets/img/covi.png");
+    background-image: url("./../img/covi.png");
     justify-content: flex-end;
     align-items: end;
 }
@@ -854,7 +854,7 @@ header{
     height: 85vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("./assets/img/smar.png");
+    background-image: url("./../img/smar.png");
     justify-content: flex-end;
     align-items: end;
 }
@@ -863,7 +863,7 @@ header{
     height: 85vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("./assets/img/loyal.png");
+    background-image: url("./../img/loyal.png");
     justify-content: end;
     align-items: end;
     @media screen and (min-width: 300px){
@@ -877,7 +877,7 @@ header{
     height: 85vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("./assets/img/supply.png");
+    background-image: url("./../img/supply.png");
     justify-content: end;
     align-items: end;
 }
@@ -887,14 +887,14 @@ header{
     height: 85vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("./assets/img/madurez.png");
+    background-image: url("./../img/madurez.png");
     justify-content: end;
     align-items: end;
 }
 .smart{
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url("assets/img/smar.png");
+    background-image: url("../img/smar.png");
     background-size: cover;
 }
 .graybox
@@ -911,7 +911,7 @@ header{
 
     @media screen and(min-width: 560px){
         transform: translateY(0);
-        width: 40%;
+        width: 50%;
     }
     @media screen and(max-width: 560px){
         width: 100%;
@@ -1041,7 +1041,7 @@ header{
     width: 135%;
     height: 69.3vh;
     background-repeat: no-repeat;
-    background-image: url("assets/img/smar.png");
+    background-image: url("../img/smar.png");
     background-size: contain;
     transform: rotate(90deg)  translate(0,22%);
 }
@@ -1050,7 +1050,7 @@ header{
     margin-top: 5%;
     width: 135%;
     height: 70vh;
-    background-image: url("assets/img/loyal.png");
+    background-image: url("../img/loyal.png");
     background-size: contain;
     background-repeat: no-repeat;
     transform: rotate(90deg)  translate(0,22%);
@@ -1062,7 +1062,7 @@ header{
     display: block;
     width: 135%;
     height: 69.3vh;
-    background-image: url("assets/img/madurez.png");
+    background-image: url("../img/madurez.png");
     background-size: contain;
     background-repeat: no-repeat;
     transform: rotate(90deg)  translate(0,22%);
@@ -1073,7 +1073,7 @@ header{
     display: block;
     width: 130%;
     height: 70vh;
-    background-image: url("assets/img/waste.png");
+    background-image: url("../img/waste.png");
     background-size: cover;
     background-repeat: no-repeat;
     transform: rotate(90deg)  translate(0,5%);
@@ -1089,7 +1089,7 @@ header{
     display: block;
     width: 138%;
     height: 75vh;
-    background-image: url("assets/img/rutas.png");
+    background-image: url("../img/rutas.png");
     background-size: cover;
     background-repeat: no-repeat;
     transform: rotate(90deg)  translate(0,22%);
@@ -1102,7 +1102,7 @@ header{
     display: block;
     width: 135%;
     height: 70.3vh;
-    background-image: url("assets/img/recursos.png");
+    background-image: url("../img/recursos.png");
     background-size: contain;
     background-repeat: no-repeat;
     transform: rotate(90deg)  translate(0,22%);
@@ -1115,7 +1115,7 @@ header{
     display: block;
     width: 135%;
     height:70.3vh;
-    background-image: url("assets/img/mapping.jpeg");
+    background-image: url("../img/mapping.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     transform: rotate(90deg)  translate(0,1%);
@@ -1129,7 +1129,7 @@ header{
     display: inline-block;
     width: 115%;
     height: 69.3vh;
-    background-image: url("assets/img/supply.png");
+    background-image: url("../img/supply.png");
     background-size: contain;
     transform: rotate(90deg)  translate(0,0);
 }
@@ -1148,7 +1148,7 @@ header{
     margin-top: 0%;
 }
 .customdiv h1{
-    z-index: 9;
+    z-index: 1;
     display: block;
     position: relative;
     font-size: 36px;
@@ -1170,7 +1170,7 @@ header{
     position: absolute;
     color: white;
     font-size: 18px;
-    z-index: 9;
+    z-index: 1;
     transform: rotate(90deg);
 }
 
@@ -1217,7 +1217,7 @@ cursor: pointer;
     border-radius: 6px;
     padding: 8px 0;
     position: absolute;
-    z-index: 9999999999999;
+    z-index: 1;
     bottom: 85%;
     left: 50%;
     margin-left: -80px;
@@ -1263,12 +1263,7 @@ cursor: pointer;
 {
     width: 100%;
     height: auto;
-    @media screen and (min-width: 310px){
-        margin-top: 20%;
-    }
-    @media screen and (min-width: 900px){
-        margin-top: 5%;
-    }
+   margin-top: 125px;
 }
 
 .box{
@@ -1424,7 +1419,7 @@ cursor: pointer;
         transform: translateX(-0.2%);
     }
 
-    background-image: url("./assets/img/logow.png");
+    background-image: url("./../img/logow.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -1560,7 +1555,7 @@ cursor: pointer;
     height: 54.5vh;
     color: black;
     background-color: black;
-    z-index: 999999999;
+    z-index: 1;
 }
 .cuadro{
     margin-left: 40%;
@@ -1677,23 +1672,23 @@ cursor: pointer;
     .imgcover{
         border: 0;
         position: absolute;
-        z-index: 999;
+        z-index: 1;
         background-color: black;
     }
     #gallery #imgc1{
-        z-index: 999;
+        z-index: 1;
         width: 130%;
         border-style: none;
         animation: slideRight 1s cubic-bezier(0.950, 0.050, 0.795, 0.035) forwards 3s;
     }
     #gallery #imgc2{
-        z-index: 999;
+        z-index: 1;
         border-style: none;
         width: 130%;
         animation: slideRight 1s cubic-bezier(0.950, 0.050, 0.795, 0.035) forwards 3.3s;
     }
     #gallery #imgc3{
-        z-index: 999;
+        z-index: 1;
         width: 130%;
         animation: slideRight 0.8s cubic-bezier(0.950, 0.050, 0.795, 0.035) forwards 3.8s;
     }
@@ -1739,7 +1734,7 @@ cursor: pointer;
     }
     .textX
     {
-        z-index: 99;
+        z-index: 1;
         animation-iteration-count: 2;
         opacity: 0;
         animation-delay: .5s;
@@ -2095,7 +2090,7 @@ cursor: pointer;
     }
 }
 #follower{
-    z-index: 9999999999999999999999;
+    z-index: 1;
 position :absolute;
 height: 10vh;
     color: #e0a800;
@@ -2113,7 +2108,7 @@ height: 10vh;
         margin-left :-0.26em;
     }
     #circle2 {
-        z-index: 9999999999999999999999;
+        z-index: 1;
         position: absolute;
         background: rgba(224, 168, 0, 0);
         border-radius :50%;
@@ -2230,6 +2225,7 @@ height: 10vh;
             width: 100%;
             height: 100%;
             -webkit-transition: all 0.5s 0.5s;
+            z-index: -1;
         }
 
         .card-title {
@@ -2239,7 +2235,7 @@ height: 10vh;
             color: #ffffff;
             padding-top: 5%;
             font-size: 2.7em;
-            z-index: 22;
+
             -webkit-transition: padding-top 0.5s 0.5s, opacity 0.4s 0.6s;
         }
         .card-title{
@@ -2270,35 +2266,35 @@ height: 10vh;
     //definis un fondo para cada tarjetita
 
     .card-1 {
-        @include setBackground('./assets/img/smar.png');
+        @include setBackground('./../img/smar.png');
     }
 
     .card-2 {
-        @include setBackground('./assets/img/supply.png');
+        @include setBackground('./../img/supply.png');
     }
 
     .card-3 {
-        @include setBackground('./assets/img/loyal.png');
+        @include setBackground('./../img/loyal.png');
     }
 
     .card-4 {
-        @include setBackground('./assets/img/madurez.png');
+        @include setBackground('./../img/madurez.png');
     }
 
     .card-5 {
-        @include setBackground('./assets/img/waste.png');
+        @include setBackground('./../img/waste.png');
     }
 
     .card-6 {
-        @include setBackground('./assets/img/rutas.png');
+        @include setBackground('./../img/rutas.png');
     }
 
     .card-7 {
-        @include setBackground('./assets/img/recursos.png');
+        @include setBackground('./../img/recursos.png');
     }
 
     .card-8 {
-        @include setBackground('./assets/img/mapping.jpeg');
+        @include setBackground('./../img/mapping.jpeg');
     }
 
 }

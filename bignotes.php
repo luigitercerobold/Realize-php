@@ -21,12 +21,12 @@
                 </div>
                 <div class="col-lg-8 col-md-12 col-12">
                     <div class="infoDesc3">
-                        <h1>Artificial Intelligence &amp; Machine Learning</h1>
+                        <h2 class="title">Artificial Intelligence &amp; Machine Learning</h2>
                         <p>
                             El poder de las simulaciones y la inteligencia artificial atrás de los modelos de Covid-19
                             Simulación.
                         </p>
-                        <h2 onclick="location.href='http://www.r2d3.us/covid-19';">Leer mas</h2>
+                        <p class="parrafo" onclick="location.href='http://www.r2d3.us/covid-19';">Leer mas</p>
                     </div>
                 </div>
                 <div class="hozline2 "></div>
@@ -38,14 +38,14 @@
                 </div>
                 <div class="col-lg-8 col-md-12 col-12">
                     <div class="infoDesc3">
-                        <h1>Crystal Knows</h1>
+                        <h2 class="title">Crystal Knows</h2>
                         <p>
                             Utilizando AI en el análisis de redes sociales y patrones de uso en la web, esta app proporciona
                             evaluaciones de personalidad, predicciones y herramientas de entrenamiento para respaldar
                             una variedad de roles orientados a la comunicación.
                         </p>
 
-                        <h2 onclick="location.href='https://www.crystalknows.com/video/chrome-extension';">Leer mas</h2>
+                        <p class="parrafo" onclick="location.href='https://www.crystalknows.com/video/chrome-extension';">Leer mas</p>
                     </div>
 
                 </div>
@@ -59,12 +59,12 @@
                 </div>
                 <div class="col-lg-8 col-md-12 col-12">
                     <div class="infoDesc3">
-                        <h1>Amazon Scout</h1>
+                        <h2 class="title">Amazon Scout</h2>
                         <p>
                             Uso de Machine Learning para recomendar productos específicos a los compradores basados
                             en sus gustos y disgustos.
                         </p>
-                        <h2 onclick="location.href='https://www.youtube.com/watch?v=Xp7s_kCHJS0';">Leer mas</h2>
+                        <p class="parrafo" onclick="location.href='https://www.youtube.com/watch?v=Xp7s_kCHJS0';">Leer mas</p>
                     </div>
 
                 </div>
@@ -78,12 +78,12 @@
                 </div>
                 <div class="col-lg-8 col-md-12 col-12">
                     <div class="infoDesc3">
-                        <h1>Casos de exito</h1>
+                        <h2 class="title">Casos de exito</h2>
                         <p>
                             Los sistemas de IA serán entrenados siguiendo las selecciones humanas en la gestión de
                             ingresos y enseñando a la máquina a producir una versión automática del proceso.
                         </p>
-                        <h2 onclick="location.href='https://medium.com/@emmaelice03/ai-in-revenue-management-4a0ac54b5272';">Leer mas</h2>
+                        <p  class="parrafo" onclick="location.href='https://medium.com/@emmaelice03/ai-in-revenue-management-4a0ac54b5272';">Leer mas</p>
                     </div>
 
                 </div>

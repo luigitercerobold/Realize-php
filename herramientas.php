@@ -10,7 +10,7 @@
 
 <body>
     <?include 'include/header.php'?>
-
+    
     <section class="ini cards-container">
         <div class="container">
             <div class="row animate-top">
@@ -24,20 +24,22 @@
                 </div>
             </div>
             <div class="row no-gutters ">
+            
                 <div class="col-lg-4 col-md-12 col-12 ">
-                    <a href="smart.php">
+                    <a href="./smart.php">
                         <div class="card-container card-1">
-                            <div class="opacity"></div>
+                        <div class="opacity"></div>
 
                             <h2 class="card-title">Revenue management</h2>
                         </div>
                     </a>
+                    
                 </div>
                 <div class="col-lg-4 col-md-12 col-12">
-                    <a href="supply.php">
+                    <a href="./supply.php">
                         <div class="card-container card-2">
-                            <div class="opacity"></div>
-
+                            
+                        <div class="opacity"></div>
                             <h2 class="card-title">Supply chain management</h2>
                         </div>
                     </a>
@@ -81,7 +83,7 @@
         </div>
 
     </section>
-
+   
     <?include 'include/footer.php'?>
 
     <?include 'include/end.php'?>

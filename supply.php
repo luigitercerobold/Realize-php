@@ -13,9 +13,9 @@
     <section class="imagen">
         <div class="container">
             <div class="myimgsupply animate-top">
-                <div class="graybox animate-bottom">
-                    <h1>Supply chain </h1>
-                    <h1>management </h1>
+                <div class="graybox">
+                    <h1>Supply chain management</h1>
+                
                     <div class="circle">
                         <i style="margin-top: 10%; color: #58595B; font-size: 20px;" class="fas fa-chevron-down"></i>
                     </div>
@@ -26,8 +26,8 @@
     </section>
     <section class="info ">
         <div class="container">
-            <h1>¿Cuánto tiempo pierde tu equipo en generar órdenes
-                de compra y mantener sanos tus niveles de inventario?</h1>
+            <h2 class="title">¿Cuánto tiempo pierde tu equipo en generar órdenes
+                de compra y mantener sanos tus niveles de inventario?</h2>
             <span style="margin-top:5%;font-size: 52px; color: #3c5399;font-weight: bold;">-</span>
             <div class="mip ">
                 <p> <span style="font-weight: bold;"> La herramienta de Supply Chain Management de Realize </span> ayuda a nuestros clientes a reducir
@@ -42,7 +42,7 @@
             <div class="info1">
                 <div class="row">
                     <div class="col-lg-7 col-md-12">
-                        <h1>Casos de éxito</h1>
+                        <h2 class="title">Casos de éxito</h2>
                     </div>
                     <div class="col-lg-5 col-md-12">
                         <p>Con nuestros clientes en empresas de retail y empresas de consumo masivo hemos logrado alcanzar estos
@@ -59,30 +59,30 @@
 
                     <div class="col-lg-3 percentage-container">
                         <div class="elem2">
-                            <h1><span style="color: #e0a800;">40%</span> </h1>
-                            <p>Disminución de la venta perdida</p>
+                            <p class="subtitulo"><span style="color: #e0a800;">40%</span> </p>
+                            <p class="parrafo">Disminución de la venta perdida</p>
                         </div>
                         <div class="vline"></div>
                     </div>
 
                     <div class="col-lg-3 percentage-container">
                         <div class="elem2">
-                            <h1>20-<span style="color: #e0a800;">25%</span> </h1>
-                            <p>Disminución de quiebres de inventario</p>
+                            <p class="subtitulo">20-<span style="color: #e0a800;">25%</span> </p>
+                            <p class="parrafo">Disminución de quiebres de inventario</p>
                         </div>
                         <div class="vline"></div>
                     </div>
                     <div class="col-lg-3 percentage-container">
                         <div class="elem2">
-                            <h1>10-<span style="color: #e0a800;">13</span> </h1>
-                            <p>Disminución de días de inventario</p>
+                            <p class="subtitulo">10-<span style="color: #e0a800;">13</span> </p>
+                            <p class="parrafo">Disminución de días de inventario</p>
                         </div>
                         <div class="vline"></div>
                     </div>
                     <div class="col-lg-3 percentage-container">
                         <div class="elem2">
-                            <h1>20-<span style="color: #e0a800;">80%</span> </h1>
-                            <p>Disminución de níveles de inventario</p>
+                            <p class="subtitulo">20-<span style="color: #e0a800;">80%</span> </p>
+                            <p class="parrafo">Disminución de níveles de inventario</p>
                         </div>
                     </div>
 
@@ -102,7 +102,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-12">
                         <div class="infoDesc ">
-                            <h1>¿Cómo lo hacemos?</h1>
+                            <h2 class="title">¿Cómo lo hacemos?<h2>
                             <p>
                                 Utilizando modelos de machine learning, el motor de inteligencia artificial de Realize analiza las
                                 predicciones de la demanda, los niveles actuales de inventario y reglas del inventario (como
