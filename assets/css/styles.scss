@@ -483,7 +483,7 @@ header{
     height: 100%;
 }
 .infoDesc2{
-    padding-bottom: 8em;
+    padding-top: 8em;
     justify-content: center;
     width: 100%;
 }
@@ -512,7 +512,7 @@ header{
     height: 100%;
     object-fit: cover;
 }
-.infoDesc h1{
+.infoDesc .title{
     font-family: Hoves-Medium;
     color: #3c5399;
     font-size: 5rem;
@@ -720,8 +720,10 @@ header{
     width: 100%;
     float: left;
     margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.datas h1{
+.datas .subtitulo{
     float: left;
     margin-left: 0;
     text-align: left;
@@ -785,7 +787,7 @@ header{
     width: 73%;
     font-size: 2rem;
 }
-.info1 h1{
+.info1 .title{
     align-self: center;
     font-size: 4rem;
     color: white;
@@ -810,7 +812,7 @@ header{
     height: auto;
     padding-bottom: 2em;
 }
-.info h1
+.info .title
 {
     color: #3c5399;
     font-size: 4.5rem;
@@ -1547,6 +1549,9 @@ cursor: pointer;
 #block3{
     width: 34%;
     animation: 0.8s cubic-bezier(0.950, 0.050, 0.795, 0.035) 2.8s slideToBottom forwards;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 .blackblock
 {

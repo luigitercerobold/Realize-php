@@ -557,7 +557,7 @@ header {
 }
 
 .infoDesc2 {
-  padding-bottom: 8em;
+  padding-top: 8em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -596,7 +596,7 @@ header {
      object-fit: cover;
 }
 
-.infoDesc h1 {
+.infoDesc .title {
   font-family: Hoves-Medium;
   color: #3c5399;
   font-size: 5rem;
@@ -853,9 +853,11 @@ header {
   width: 100%;
   float: left;
   margin-left: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.datas h1 {
+.datas .subtitulo {
   float: left;
   margin-left: 0;
   text-align: left;
@@ -936,7 +938,7 @@ header {
   font-size: 2rem;
 }
 
-.info1 h1 {
+.info1 .title {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -965,7 +967,7 @@ header {
   padding-bottom: 2em;
 }
 
-.info h1 {
+.info .title {
   color: #3c5399;
   font-size: 4.5rem;
   margin-bottom: 5%;
@@ -1865,6 +1867,8 @@ header {
   width: 34%;
   -webkit-animation: 0.8s cubic-bezier(0.95, 0.05, 0.795, 0.035) 2.8s slideToBottom forwards;
           animation: 0.8s cubic-bezier(0.95, 0.05, 0.795, 0.035) 2.8s slideToBottom forwards;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .blackblock {
