@@ -24,7 +24,7 @@
     </section>
     <section class="info ">
         <div class="container">
-            <h1>¿Cómo identificas clientes en riesgo de abandonar tu negocio? ¿Cómo los mantienes?</h1>
+            <h2 class="title">¿Cómo identificas clientes en riesgo de abandonar tu negocio? ¿Cómo los mantienes?</h2>
             <span style="margin-top:5%;font-size: 52px; color: #3c5399;font-weight: bold;">-</span>
             <div class="mip ">
                 <p> <span style="font-weight: bold;"> La herramienta de Loyalty de Realize</span> ayuda a incentivar el consumo
@@ -39,7 +39,7 @@
             <div class="info1">
                 <div class="row">
                     <div class="col-lg-7 col-md-12">
-                        <h1>Casos de éxito</h1>
+                        <h3 class="title">Casos de éxito</h3>
                     </div>
                     <div class="col-lg-5 col-md-12">
                         <p>Con nuestros clientes en empresas de retail y empresas de consumo masivo hemos logrado alcanzar estos
@@ -55,22 +55,22 @@
                 <div class="row">
                     <div class="col-lg-4 percentage-container">
                         <div class="elem">
-                            <h1>5-<span style="color: #e0a800;">9%</span> </h1>
-                            <p>Aumento esperado de clientes</p>
+                            <p class="subtitulo">5-<span style="color: #e0a800;">9%</span> </p>
+                            <p  class="parrafo">Aumento esperado de clientes</p>
                         </div>
                         <div class="vline"></div>
                     </div>
                     <div class="col-lg-4 percentage-container">
                         <div class="elem">
-                            <h1><span style="color: #e0a800;">+2.1%</span> </h1>
-                            <p>Aumento de ventas anuales</p>
+                            <p class="subtitulo"><span style="color: #e0a800;">+2.1%</span> </p>
+                            <p  class="parrafo">Aumento de ventas anuales</p>
                         </div>
                         <div class="vline"></div>
                     </div>
                     <div class="col-lg-4 percentage-container">
                         <div class="elem">
-                            <h1><span style="color: #e0a800;">67%</span> </h1>
-                            <p>De recuperación de clientes perdidos</p>
+                            <p class="subtitulo"><span style="color: #e0a800;">67%</span> </p>
+                            <p class="parrafo">De recuperación de clientes perdidos</p>
                         </div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
 
                     <div class="col-lg-6 col-md-6 col-12">
                         <div class="infoDesc ">
-                            <h1>¿Cómo lo hacemos?</h1>
+                            <h2 class="title">¿Cómo lo hacemos?</h2>
                             <p>
                                 En base a los demográficos y patrones de consumo de los
                                 clientes, el motor de inteligencia artificial de Realize

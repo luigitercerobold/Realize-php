@@ -912,13 +912,13 @@ header {
   }
 }
 
-.res h1 {
+.res .subtitulo {
   width: 100%;
   color: white;
   font-size: 8rem;
 }
 
-.res p {
+.res .parrafo {
   margin-left: 24%;
   color: white;
   width: 53%;
