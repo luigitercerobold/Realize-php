@@ -115,6 +115,8 @@
         </div>
     </section>
     <?include 'include/footer.php'?>
+
+    <?include 'include/end.php'?>
 </body>
 
 </html>

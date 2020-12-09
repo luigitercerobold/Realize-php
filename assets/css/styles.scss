@@ -334,7 +334,7 @@ header{
     }
     .subtitulo {
         margin-top: 0;
-        width: 60%;
+        
         font-size: 4.5px;
     }
     .subtitulo h1{
@@ -708,7 +708,7 @@ header{
 .datas .row{
     margin-left: 6%;
     margin-top: 5%;
-    height: 10vh;
+  
 }
 .datas
 {
@@ -728,7 +728,7 @@ header{
     margin-left: 0;
     text-align: left;
     letter-spacing: 2px;
-    font-size: 4rem;
+    font-size: 3.7rem;
     color: white;
 }
 .wline{
@@ -1020,7 +1020,7 @@ header{
     font-size: 40px;
     margin-top: 10%;
     margin-bottom: 5%;
-    line-height: 0px;
+    line-height: 35px;
 }
 .circle fas{
     color: #58595B;
@@ -1199,7 +1199,7 @@ header{
     font-size: 3.8rem;
     color: #3c5399;
     line-height: 1.2;
-    margin-right: 50%;
+   
     opacity: 0;
     animation: fadeUp .5s forwards;
     animation-delay: .5s;
@@ -2415,7 +2415,22 @@ height: 10vh;
         }
     }
 }
-
+.test-button {
+	color: #FFFFFF;
+	-webkit-transition: all 0.5s;
+	font-size: 2rem;
+	background-color: #e0a800;
+	border-radius: 15px;
+	padding: 0.4em 1em;
+	color: white;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	width: 14em;
+	font-weight: bold;
+}
 
 
 

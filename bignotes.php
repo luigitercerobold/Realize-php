@@ -15,6 +15,47 @@
     </section>
     <section class="last">
         <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <img src="./assets/img/libro1.png" style="width: 100%;object-fit: cover;" alt="">
+                </div>
+                <div class="col-lg-8 col-md-12 col-12">
+                    <div class="infoDesc3">
+                        <h2 class="title">La nueva tendencia
+                            de las empresas
+                            multinacionales</h2>
+                        <p>
+                            La mejor forma
+                            que existe para aumentar las utilidades de la
+                            empresa es a través de analizar y entender los
+                            patrones que mueven la demanda.
+                        </p>
+                        <p class="parrafo" onclick="location.href='https://share.hsforms.com/1Jrss6zzoT0yvStyj0dzg2A46ro0';">Descargar e-book</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hozline2 "></div>
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <img src="./assets/img/libro2.png" style="width: 100%;object-fit: cover;" alt="">
+                </div>
+                <div class="col-lg-8 col-md-12 col-12">
+                    <div class="infoDesc3">
+                        <h2 class="title">De Carbón a Diamante</h2>
+                        <p>
+                            ¿Qué necesitas tú, para potenciar tu negocio?
+                        </p>
+                        <p class="parrafo" onclick="location.href='https://share.hsforms.com/18I2qQwhUSDOZAo9_n7ba4A46ro0';">Descargar e-book</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hozline2 "></div>
             <div class="row" style="overflow-x: hidden;">
                 <div class="col-lg-4 col-md-12 col-12">
                     <img src="./assets/img/bn.jpg" style="width: 100%;object-fit: cover;" alt="">
@@ -83,7 +124,7 @@
                             Los sistemas de IA serán entrenados siguiendo las selecciones humanas en la gestión de
                             ingresos y enseñando a la máquina a producir una versión automática del proceso.
                         </p>
-                        <p  class="parrafo" onclick="location.href='https://medium.com/@emmaelice03/ai-in-revenue-management-4a0ac54b5272';">Leer mas</p>
+                        <p class="parrafo" onclick="location.href='https://medium.com/@emmaelice03/ai-in-revenue-management-4a0ac54b5272';">Leer mas</p>
                     </div>
 
                 </div>
@@ -92,11 +133,10 @@
 
             <div class="hozline2 "></div>
 
+
         </div>
     </section>
-    <?include 'include/footer.php'?>
 
-    <?include 'include/end.php'?>
 </body>
 
 </html>

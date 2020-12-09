@@ -29,6 +29,7 @@
             <span style="font-size: 52px; color: #3c5399;font-weight: bold;">-</span>
             <div class="mip ">
                 <p> <span style="font-weight: bold;"> La herramienta de Madurez digital de Realize</span> califica a través de una serie de preguntas, en qué nivel de digitalización está la empresa en cada área (Loyalty, Pricing, Supply Chain), para saber dónde está y cómo puede ser más eficiente.</p>
+                <a href="https://madurezdigital.realizeservice.com/" class="test-button" style="margin-left: 0;color: white;">Realizar test ahora</a>
             </div>
         </div>
         <div class="hozline "></div>
@@ -98,14 +99,36 @@
                                 actualmente en tu empresa nos permitirá diseñar un plan de transformación gradual a través
                                 del tiempo.
                             </p>
-                            \
+                            
                         </div>
+                        <a href="https://madurezdigital.realizeservice.com/" class="test-button" style="margin-left: 5;color: white;">Realizar test ahora</a>
                     </div>
+                    
                 </div>
+                <section class="last">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+					<script>
+						hbspt.forms.create({
+							portalId: "7034256",
+							formId: "be5d9264-9694-4335-9e91-edded59d0291"
+						});
+					</script>
+				</div>
+			</div>
+
+		</div>
+    </section>
+   
 
             </div>
     </section>
-    <?include './include/footer.php'?>
+    <?include 'include/footer.php'?>
+
+<?include 'include/end.php'?>
+
 </body>
 
 </html>
