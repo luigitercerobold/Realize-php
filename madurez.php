@@ -3,7 +3,8 @@
 
 <head>
 
-    <title>Realize - Supply</title>
+<title>Realize Service | Madurez	               </title>
+<meta name="description" content="Comprende el nivel de madurez de tu empresa, con el cuestionario de Realize Services,Loyalty, Pricing, Supply Chain, comprende como te podemos ayudar en el siguiente salto digital, por medio de inteligencia artificial, ¿no lo crees?, entra "/>
     <?include './include/meta.php'?>
 </head>
 

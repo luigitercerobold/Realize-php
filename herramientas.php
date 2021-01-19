@@ -3,7 +3,8 @@
 
 <head>
 
-    <title>Realize - Home</title>
+    <title>Realize Services | Herramientas	         </title>
+    <meta name="description" content="Realize Service, ofrece múltiples tipos de herramientas que te ayuda optimizar en cada área de tu negocio, encuentra como optimizar las ventas, encuentra el perfil de tu cliente, aumenta la utilidad, pérdidas de venta y tiempo por inventario"/>
 
     <?include 'include/meta.php'?>
 </head>

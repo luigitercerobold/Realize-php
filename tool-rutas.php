@@ -3,7 +3,9 @@
 
 <head>
 
-    <title>Realize - Optimizador de rutas</title>
+<title>Realize Service | Optimizador de rutas	   </title>
+<meta name="description" content="Ahorra, todos los costos de rutas de viajes que se hacen en tu negocio. Crea rutas óptimas para el recorrido de tus pedidos"/>
+
     <?include 'include/meta.php'?>
 </head>
 

@@ -2,17 +2,13 @@
 <html lang="en">
 
 <head>
-    <title>Realize - Home</title>
+<title>Realize Service | Consultoría de Negocios	</title>
+<meta name="description" content="Es un consultor que te ayuda a crecer tu negocio atravez de inteligencia artificial, optimiza procesos, compras y la logística de tu negocio, transforma tu negocio a la era digital"/>
     <?include 'include/meta.php'?>
 
 </head>
 
 <body class="specific-page">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRR4D7F" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-
 
     <?include 'include/header.php'?>
 

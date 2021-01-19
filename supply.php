@@ -3,7 +3,9 @@
 
 <head>
 
-    <title>Realize - Supply</title>
+<title>Realize Service | Supply Chain            </title>
+<meta name="description" content="Management	Encuentra el punto de quiebre de tus inventarios, y logra mantener tu inventario al dia con ayuda de inteligencia artificial, haz ordenes de compra óptimas, manten al dia los inventarios, y lleva tu negocio al siguiente nivel"/>
+
     <?include 'include/meta.php'?>
 </head>
 

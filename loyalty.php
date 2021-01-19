@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-    <title>Realize - Loyalty</title>
+    
+<title>Realize Service| Loyalty	               </title>
+<meta name="description" content="Ve el futuro, crea el perfil ideal de tus clientes, el  uso de inteligencia artificial puede visualizar el consumo de tus actuales y futuros clientes. Puedes recuperar hasta un 67 % de tus clientes perdidos. No dejes de perder más y aumenta tus ventas hasta en un 5%"/>
     <?include 'include/meta.php'?>
 </head>
 

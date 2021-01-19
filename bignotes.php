@@ -4,6 +4,8 @@
 <head>
 
     <title>Realize - Big Notes</title>
+    <meta name="description" content="Información sobre inteligencia artificial en los negocios, descubre como la inteligencia artificial puede ayudarte a aumentar tus ventas, a optimizar rutas de proveedores y a generar más utilidad"/>
+
     <?include 'include/meta.php'?>
 
 <body>
@@ -136,7 +138,9 @@
 
         </div>
     </section>
+ <?include 'include/footer.php'?>
 
+    <?include 'include/end.php'?>
 </body>
 
 </html>

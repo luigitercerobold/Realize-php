@@ -4,8 +4,6 @@
 
 
         <!--    <div class="verticalPadding  logow"></div>-->
-
-
         <div class=" container ">
 
             <div class="row">
@@ -60,6 +58,13 @@
                         <div class="tcenter footinfo col-lg-2  col-12" onclick="location.href='./bignotes.php';" style="cursor: pointer;">
                             <p>Big Notes</p>
                         </div>
+                    </div>
+                </div>
+                <div class=" col-12  col-lg-12 ">
+                    <div class="img">
+                        <a href="https://www.facebook.com/realizegt/"><img src="assets/img/facebook-4-24.png"></a>
+                        <a href="https://www.instagram.com/realizegt/"><img src="assets/img/instagram-6-24.png"></a>
+                        <a href="https://www.linkedin.com/company/improve-business-efficiency/"><img src="assets/img/linkedin-3-24.png"></a>
                     </div>
                 </div>
             </div>

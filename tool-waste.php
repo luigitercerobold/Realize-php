@@ -3,7 +3,9 @@
 
 <head>
 
-    <title>Realize - Waste Management</title>
+<title>Realize Service | Warehouse	            </title>
+<meta name="description" content="Lleva tu inventario, a la era digital, benefíciate al manejar tu inventario con inteligencia artificial, no cometas errores y comprende el mundo de la era digital"/>
+
     <?include 'include/meta.php'?>
 </head>
 

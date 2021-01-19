@@ -4,6 +4,7 @@
 <head>
 
     <title>Realize - Contacto</title>
+    <meta name="description" content="Contacta a los expertos en manejo de negocios digitales con inteligencia artificial lleva tus ventas a otro nivel, la inteligencia artificial es el futuro"/>
     <?include 'include/meta.php'?>
 </head>
 

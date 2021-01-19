@@ -3,7 +3,8 @@
 
 <head>
 
-    <title>Realize - Mapping</title>
+<title>Realize Service | Mapping</title>
+<meta name="description" content="Comprende los datos que genera tu negocio, la inteligencia artificial de Realize te ayuda a interpretar mejor tus datos"/>
     <?include 'include/meta.php'?>
 </head>
 

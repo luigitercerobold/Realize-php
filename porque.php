@@ -3,7 +3,9 @@
 
 <head>
 
-    <title>Realize - ¿Por qué?</title>
+  
+<title>Realize Service | ¿por qué?	            </title>
+<meta name="description" content="Un negocio genera datos Realize Service, te ayuda a interpretar los datos para que puedas tomar mejores decisiones, ¿qué esperas?, lleva tu negocio a la era digital"/>
     <?include 'include/meta.php'?>
 </head>
 

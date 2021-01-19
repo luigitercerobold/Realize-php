@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-    <title>Realize - Smart</title>
+<title>Realize Services | Revenue Management	   </title>
+<meta name="description" content="Aumenta tus utilidades, Cambia los precios de manera inteligente con el uso de Inteligencia Artificial, Encuentra el precio óptimo para la venta de tus productos o servicios."/>
+
     <?include 'include/meta.php'?>
 </head>
 
