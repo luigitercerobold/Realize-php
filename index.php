@@ -61,6 +61,11 @@
 
                         <img src="./assets/img/mapping.jpeg" style="width: 100%;height: 100%;" alt="">
                     </div>
+                    <div class="swiper-slide" onclick="location.href='./tool-web-scraping.php';">
+                        <h2>Web Scraping</h2>
+
+                        <img src="./assets/img/scrapy1.jpg" style="width: 100%;height: 100%;" alt="">
+                    </div>
                     <div class="swiper-slide">
                         <div class="gray" style="width: 100%;height: 100%;">
                             <p>Vamos a optimizar.</p>

@@ -31,7 +31,9 @@
                                     <p><a style="color: #58595B" href="./supply.php">Supply Chain Management</a></p>
                                     <p><a style="color: #58595B" href="./tool-waste.php">Warehouse Management</a></p>
                                     <p><a style="color: #58595B" href="./tool-rutas.php">Optimizador de Rutas</a></p>
-                                    <p><a style="color: #58595B" href="./tool-mapping.php">Mapping</a></p><br>
+                                    <p><a style="color: #58595B" href="./tool-mapping.php">Mapping</a></p>
+                                    <p><a style="color: #58595B" href="./tool-web-scraping.php">Web Scraping</a></p> 
+                                    <br>
                                 </div>
                             </div>
                         </div>

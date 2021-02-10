@@ -24,49 +24,92 @@
                     <br>
                 </div>
             </div>
-            <div class="row no-gutters ">
-            
-                <div class="col-lg-4 col-md-12 col-12 ">
-                    <a href="./smart.php">
-                        <div class="card-container card-1">
-                        <div class="opacity"></div>
+            <div class="dos">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" onclick="location.href='smart.php';">
+                        <!--                        <div class="blackbox"></div>-->
+                        <!--                        <span class="popuptext" id="myPopup">Descripcion ejemplo</span>-->
+                        <h2>Revenue management</h2>
+                        <img src="./assets/img/smar.png" style="width: 100%;height: 100%;" alt="">
+                    </div>
+                    <div class="swiper-slide" onclick="location.href='supply.php';">
+                        <!--                        <div class="blackbox"></div>-->
+                        <h2>Supply chain management</h2>
+                        <img src="./assets/img/supply.png" style="width: 100%;height: 100%;" alt="">
+                    </div>
+                    <div class="swiper-slide" onclick="location.href='loyalty.php';">
+                        <!--                        <div class="blackbox"></div>-->
+                        <h2>Loyalty</h2>
+                        <img src="./assets/img/loyal.png" style="width: 100%;height: 100%;" alt="">
+                    </div>
+                    <div class="swiper-slide" onclick="location.href='madurez.php';">
+                        <h2>Madurez digital</h2>
 
-                            <h2 class="card-title">Revenue management</h2>
-                        </div>
-                    </a>
-                    
-                </div>
-                <div class="col-lg-4 col-md-12 col-12">
-                    <a href="./supply.php">
-                        <div class="card-container card-2">
-                            
-                        <div class="opacity"></div>
-                            <h2 class="card-title">Supply chain management</h2>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-12 col-12">
-                    <a href="loyalty.php">
-                        <div class="card-container card-3">
-                            <div class="opacity"></div>
+                        <img src="./assets/img/madurez.png" style="width: 100%;height: 100%;" alt="">
+                    </div>
+                    <div class="swiper-slide" onclick="location.href='tool-waste.php';">
+                        <h2>Warehouse management</h2>
 
-                            <h2 class="card-title">Loyalty</h2>
-                        </div>
-                    </a>
-                </div>
+                        <img src="./assets/img/waste.png" style="width: 100%;height: 100%;" alt="">
+                    </div>
+                    <div class="swiper-slide" onclick="location.href='./tool-rutas.php';">
+                        <h2>Optimizador de rutas</h2>
 
+                        <img src="./assets/img/rutas.png" style="width: 100%;height: 100%;" alt="">
+                    </div>
+                    <div class="swiper-slide" onclick="location.href='./tool-mapping.php';">
+                        <h2>Mapping</h2>
+
+                        <img src="./assets/img/mapping.jpeg" style="width: 100%;height: 100%;" alt="">
+                    </div>
+                    <div class="swiper-slide" onclick="location.href='./tool-web-scraping.php';">
+                        <h2>Web Scraping</h2>
+
+                        <img src="./assets/img/scrapy1.jpg" style="width: 100%;height: 100%;" alt="">
+                    </div>
+    
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- Add Pagination -->
+                <!--                <div class="swiper-pagination"></div>-->
             </div>
-            <div class="row no-gutters ">
-                <div class="col-lg-4 col-md-12 col-12">
-                    <a href="madurez.php">
-                        <div class="card-container card-4">
-                            <div class="opacity"></div>
-
-                            <h2 class="card-title">Madurez digital</h2>
-                        </div>
-                    </a>
-                </div>
-            </div>
+        </div>
+        <!-- Initialize Swiper -->
+    <script>
+        $(document).ready(
+            function(e) {
+                var swiper = new Swiper('.swiper-container', {
+                    // autoplay: {
+                    //     delay: 3000,
+                    // },
+                    slidesPerView: 3,
+                    loop: true,
+                    breakpoints: {
+                        // when window width is >= 320px
+                        320: {
+                            slidesPerView: 1,
+                        },
+                        // when window width is >= 640px
+                        900: {
+                            slidesPerView: 4
+                        }
+                    },
+                    mousewheel: true,
+                    grabCursor: true,
+                    spaceBetween: 0,
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                });
+            });
+    </script>
             <div class="row" style="padding-top: 8em; padding-bottom: 4em;">
                 <div class="col-lg-6 col-md-12 col-12">
                     <div class="infoDesc3" style="margin-right: 15%; ">

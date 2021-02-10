@@ -1,3 +1,5 @@
+$font-size: 0.80;
+
 @font-face {
     font-family: 'Hoves-Light';
     src: url('../Fonts/TT-Hoves-Light.otf');
@@ -26,6 +28,9 @@
 .footer p{
     font-family: Hoves-Light;
     font-weight: normal !important;
+    @media screen and (max-width: 500px) {
+        font-size: 2rem *$font-size;
+    }
     @media screen and (min-width: 900px) {
         font-size: 1.6rem;
     }
@@ -56,6 +61,9 @@
     height: 6em !important;
     border-radius: 50%;
     background-color: black;
+    @media screen and (max-width: 500px) {
+        font-size: 1rem *$font-size;
+    }
 
 }
 .swiper-button-prev{
@@ -67,6 +75,9 @@
     height: 6em !important;
     border-radius: 50%;
     background-color: black;
+    @media screen and (max-width: 500px) {
+        font-size: 1em *$font-size;
+    }
 
 }
 .dos{
@@ -90,6 +101,9 @@
     padding-top: 3%;
     color: #3c5399;
     font-size: 4rem;
+    @media screen and (max-width: 500px) {
+        font-size: 4rem *$font-size;
+    }
 }
 .yellow{
     margin-top: 5%;
@@ -102,6 +116,9 @@
     border-radius: 15px;
     width: 30%;
     height: 5vh;
+    @media screen and (max-width: 500px) {
+        font-size: 1.7rem *$font-size;
+    }
 }
 
 .yellow-button{
@@ -117,6 +134,9 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
+    @media screen and (max-width: 500px) {
+        font-size: 1.7rem *$font-size;
+    }
 }
 .vamos .yellow-button{
     color: white;
@@ -136,6 +156,9 @@
     width: 100%;
     color: #3c5399;
     font-size: 2rem;
+    @media screen and (max-width: 500px) {
+        font-size: 1rem *$font-size;
+    }
 }
 
 
@@ -200,6 +223,9 @@ text-align: right;
     z-index: 2;
     color: white;
     font-size: 3.5rem;
+    @media screen and (max-width: 500px) {
+        font-size: 3.5rem *$font-size;
+    }
 }
 *,
 *::before,
@@ -225,6 +251,7 @@ html{
     color: var(--body-font-color);
     scroll-behavior: smooth;
     overflow-x: hidden;
+    
 }
 
 body{
@@ -263,6 +290,9 @@ header{
     z-index: 1;
     font-size: 70px;
     background-color: rgba(0,0,0,0.3);
+    @media screen and (max-width: 500px) {
+        font-size: 70px *$font-size;
+    }
 }
 .circler{
     opacity: 0;
@@ -282,6 +312,9 @@ header{
     width: 15rem;
     height: 15rem;
     background-color: rgba(0,0,0,.3);
+    @media screen and (max-width: 500px) {
+        font-size: 70px *$font-size;
+    }
 }
 #gallery img{
     cursor: pointer;
@@ -322,6 +355,9 @@ header{
     font-family: Hoves-Regular;
     font-size: 18px;
     color: white;
+    @media screen and (max-width: 500px) {
+        font-size: 18px *$font-size;
+    }
 }
 @media screen and (min-width: 300px){
     .headline-description {
@@ -436,6 +472,11 @@ header{
 .opt .title{
     font-size: 4.6em;
     margin-bottom: 1em;
+    @media screen and (max-width: 500px) {
+        font-size: 1.6em *$font-size;
+    }
+    
+
 }
 .opt .parrafo{
     padding-right: 3em;
@@ -446,6 +487,9 @@ header{
     font-weight: normal;
     font-size: 3em;
     margin-bottom: 2.7em;
+    @media screen and (max-width: 500px) {
+        font-size: 3em *$font-size;
+    }
 }
 .covid{
     width: 100%;
@@ -517,6 +561,9 @@ header{
     font-size: 5rem;
     margin-left: 10%;
     font-weight: bold;
+    @media screen and (max-width: 500px) {
+        font-size: 5rem *$font-size;
+    }
 }
 .infoDesc p{
     line-height: 140%;
@@ -528,6 +575,9 @@ header{
     margin-left: 10%;
     color: #5B5B5E;
     font-size: 2.5rem;
+    @media screen and (max-width: 500px) {
+        font-size: 2.5rem *$font-size;
+    }
 }
 #file-input {
     cursor: pointer;
@@ -567,6 +617,9 @@ header{
     margin-right: 50%;
     font-size: 5rem;
     font-weight: bold;
+    @media screen and (max-width: 500px) {
+        font-size: 5rem *$font-size;
+    }
 }
 .infoDesc2 h2{
     margin-top: 25%;
@@ -574,6 +627,9 @@ header{
     color: #3c5399;
     font-size: 3rem;
     font-weight: bold;
+    @media screen and (max-width: 500px) {
+        font-size: 3rem *$font-size;
+    }
 }
 .infoDesc2 p{
     text-align: left;
@@ -585,6 +641,9 @@ header{
     letter-spacing: 2px;
     color: #5B5B5E;
     font-size: 2.5rem;
+    @media screen and (max-width: 500px) {
+        font-size: 2.5rem *$font-size;
+    }
 }
 .infoDesc3{
     width: 100%;
@@ -595,6 +654,9 @@ header{
     color: #3c5399;
     font-size: 3.5rem;
     font-weight: bold;
+    @media screen and (max-width: 500px) {
+        font-size: 3.5rem *$font-size;
+    }
 }
 .infoDesc3 .parrafo{
     cursor: pointer;
@@ -606,6 +668,9 @@ header{
     color: #3c5399;
     font-size: 2rem;
     font-weight: bold;
+    @media screen and (max-width: 500px) {
+        font-size: 2rem *$font-size;
+    }
 }
 .infoDesc3 p{
     font-family: Hoves-Regular;
@@ -619,6 +684,9 @@ header{
     letter-spacing: 1px;
     color: #5B5B5E;
     font-size: 2.3rem;
+    @media screen and (max-width: 500px) {
+        font-size: 2.3rem *$font-size;
+    }
 }
 .res
 {
@@ -729,6 +797,9 @@ header{
     letter-spacing: 2px;
     font-size: 3.7rem;
     color: white;
+    @media screen and (max-width: 500px) {
+        font-size: 3.7rem *$font-size;
+    }
 }
 .wline{
     height: 1px;
@@ -744,10 +815,12 @@ header{
     margin-bottom: 3em;
     background-color: #3b4045;
 }
-.footer img{
-    width: 50%;
-    height: 50%;
-}
+
+    .footer img {
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+      }
 .centered{
     width: 90%;
     padding-top: 4em;
@@ -768,28 +841,43 @@ header{
     width: 100%;
     color: white;
     font-size: 8rem;
+    @media screen and (max-width: 500px) {
+        font-size: 8rem *$font-size;
+    }
 }
 .res .parrafo{
     margin-left: 24%;
     color: white;
     width: 53%;
     font-size: 2rem;
+    @media screen and (max-width: 500px) {
+        font-size: 2rem *$font-size;
+    }
 }
 .res2 .subtitulo{
     width: 100%;
     color: white;
     font-size: 5rem;
+    @media screen and (max-width: 500px) {
+        font-size: 5rem *$font-size;
+    }
 }
 .res2 .parrafo{
     margin-left: 14%;
     color: white;
     width: 73%;
     font-size: 2rem;
+    @media screen and (max-width: 500px) {
+        font-size: 2rem *$font-size;
+    }
 }
 .info1 .title{
     align-self: center;
     font-size: 4rem;
     color: white;
+    @media screen and (max-width: 500px) {
+        font-size: 4rem *$font-size;
+    }
 }
 
 .info1 .row{
@@ -803,6 +891,9 @@ header{
     line-height: 3rem;
     color: white;
     font-size: 2.5rem;
+    @media screen and (max-width: 500px) {
+        font-size: 2.5rem *$font-size;
+    }
 }
 .info{
     padding-top: 10em;
@@ -816,6 +907,9 @@ header{
     color: #3c5399;
     font-size: 4.5rem;
     margin-bottom: 5%;
+    @media screen and (max-width: 500px) {
+        font-size: 4.5rem *$font-size;
+    }
 }
 .mip{
    
@@ -826,6 +920,9 @@ header{
     letter-spacing: 1px;
     font-size: 2.8rem;
     color: #5B5B5E;
+    @media screen and (max-width: 500px) {
+        font-size: 2.8rem *$font-size;
+    }
 
 }
 .porque {
@@ -869,6 +966,16 @@ header{
         background-position: center;
     }
 
+}
+.myimgsrapy {
+    position: relative;
+    width: 100%;    
+    height: 84vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./../img/scrapy1.jpg");
+    justify-content: end;
+    align-items: end;
 }
 .myimgsupply  {
     position: relative;
@@ -964,8 +1071,11 @@ header{
 }
 .service p{
     color: #3c5399;
-    font-size: 1.5em;
+    font-size: 1.9em;
     margin-right: 5%;
+    @media screen and (max-width: 500px) {
+        font-size: 1.9em *$font-size;
+    }
 }
 .service img
 {
@@ -1001,6 +1111,9 @@ header{
     text-align: left;
     line-height: 1.2em;
     font-size: 2.3em;
+    @media screen and (max-width: 500px) {
+        font-size: 2.3rem *$font-size;
+    }
 }
 .bluebox h1{
     vertical-align: middle;
@@ -1010,6 +1123,9 @@ header{
     color: white;
     margin-top: 1em;
     font-size: 3.8rem;
+    @media screen and (max-width: 500px) {
+        font-size: 3.8rem *$font-size;
+    }
 }
 .graybox h1{
   
@@ -1020,6 +1136,9 @@ header{
     margin-top: 10%;
     margin-bottom: 5%;
     line-height: 35px;
+    @media screen and (max-width: 500px) {
+        font-size: 40px *$font-size;
+    }
 }
 .circle fas{
     color: #58595B;
@@ -1154,6 +1273,9 @@ header{
     color: white;
     letter-spacing: 1px;
     transform: rotate(90deg) ;
+    @media screen and (max-width: 500px) {
+        font-size: 36px *$font-size;
+    }
 }
 .graycuad{
     background-color: rgba(246,247,248,1);
@@ -1171,6 +1293,9 @@ header{
     font-size: 18px;
     z-index: 1;
     transform: rotate(90deg);
+    @media screen and (max-width: 500px) {
+        font-size: 18px *$font-size;
+    }
 }
 
 .graycuad h2{
@@ -1179,11 +1304,17 @@ header{
     color: var(--realize-blue);
     padding-top: 5%;
     font-size: 36px;
+    @media screen and (max-width: 500px) {
+        font-size: 36px *$font-size;
+    }
 }
 .graycuad h3{
     text-align: center;
     color: var(--realize-blue);
     font-size: 26px;
+    @media screen and (max-width: 500px) {
+        font-size: 26px *$font-size;
+    }
 }
 .sub-headline{
     font-size: 3.5rem;
@@ -1193,6 +1324,9 @@ header{
     opacity: 0;
     animation: fadeUp .5s forwards;
     animation-delay: .5s;
+    @media screen and (max-width: 500px) {
+        font-size: 3.5rem *$font-size;
+    }
 }
 .subtitulo{
     font-size: 3.8rem;
@@ -1384,6 +1518,10 @@ cursor: pointer;
     justify-self: center;
     align-self: center;
     display: block;
+    font-size: 2rem;
+    @media screen and (max-width: 500px) {
+        font-size: 2rem *$font-size;
+    }
 }
 .tcenter{
     text-align: left;
@@ -1472,6 +1610,9 @@ cursor: pointer;
     right: 2.5rem;
     cursor: pointer;
     z-index: 1500;
+    @media screen and (max-width: 500px) {
+        font-size: 2.2rem *$font-size;
+    }
 }
 
 .fa-times{
@@ -1486,6 +1627,9 @@ cursor: pointer;
     text-decoration: none;
     font-size: 17px;
     color: var(--font-color);
+    @media screen and (max-width: 500px) {
+        font-size: 17px *$font-size;
+    }
 
 }
 
@@ -1575,6 +1719,9 @@ cursor: pointer;
     font-size: 32px;
     -webkit-transition: all 3.2s;
     text-decoration: none;
+    @media screen and (max-width: 500px) {
+        font-size: 32px *$font-size;
+    }
 }
 .boxtext h1{
     min-width: 15vw;
@@ -1608,20 +1755,32 @@ cursor: pointer;
         margin-top: -11%;
         width: 6rem;
         height: 6rem;
+        @media screen and (max-width: 500px) {
+            font-size: 49px *$font-size;
+        }
     }
     .circlel:hover{
         cursor: pointer;
         font-size: 50px;
+        @media screen and (max-width: 500px) {
+            font-size: 50px *$font-size;
+        }
     }
     .circler:hover{
         cursor: pointer;
         font-size: 50px;
+        @media screen and (max-width: 500px) {
+            font-size: 50px *$font-size;
+        }
     }
     .circler{
         font-size: 49px;
         margin-top: -11%;
         width: 6rem;
         height: 6rem;
+        @media screen and (max-width: 500px) {
+            font-size: 49px *$font-size;
+        }
     }
 
     #gallery h1{
@@ -1630,15 +1789,24 @@ cursor: pointer;
         text-align: right;
         margin-top: 0%;
         font-size: 4rem;
+        @media screen and (max-width: 500px) {
+            font-size: 4rem *$font-size;
+        }
     }
     .title .sub-headline {
         margin-top: -10%;
         font-size: 5rem;
         margin-right: 40%;
+        @media screen and (max-width: 500px) {
+            font-size: 5rem *$font-size;
+        }
     }
     .title .textopeque{
         margin-top: -2%;
         font-size: 3rem;
+        @media screen and (max-width: 500px) {
+            font-size: 3rem *$font-size;
+        }
 
     }
     .horzScroll{
@@ -1730,6 +1898,9 @@ cursor: pointer;
         padding-top: 10%;
         margin-right: 50%;
         color: var(--realize-blue);
+        @media screen and (max-width: 500px) {
+            font-size: 4.3rem *$font-size;
+        }
     }
     .textX
     {
@@ -1743,6 +1914,9 @@ cursor: pointer;
         position: fixed;
         color: white;
         font-size: 5rem;
+        @media screen and (max-width: 500px) {
+            font-size: 5rem *$font-size;
+        }
     }
     
     .nav-list{
@@ -1766,6 +1940,9 @@ cursor: pointer;
         justify-content: center;
         text-transform: none;
         font-size: 1px;
+        @media screen and (max-width: 500px) {
+            font-size: 1px *$font-size;
+        }
     }
     .nav-item:last-child{
         margin-right: 0px;
@@ -1851,153 +2028,41 @@ cursor: pointer;
         margin-top: 35%;
         margin-right: 15%;
         font-size: 6rem;
+        @media screen and (max-width: 500px) {
+            font-size: 6rem *$font-size;
+        }
     }
     .circlel{
         font-size: 85px;
         margin-top: -11%;
         width: 12rem;
         height: 12rem;
+        @media screen and (max-width: 500px) {
+            font-size: 85px *$font-size;
+        }
     }
     .circlel:hover{
         cursor: pointer;
         font-size: 85px;
+        @media screen and (max-width: 500px) {
+            font-size: 85px *$font-size;
+        }
     }
     .circler:hover{
         cursor: pointer;
         font-size: 85px;
+        @media screen and (max-width: 500px) {
+            font-size: 85px *$font-size;
+        }
     }
     .circler{
         font-size: 85px;
         margin-top: -11%;
         width: 12rem;
         height: 12rem;
-    }
-}
-@media screen and (min-width: 2000px){
-    .swiper-container{
-        margin-top: 0%;
-    
-    }
-    .circlel{
-        font-size: 85px;
-        margin-top: -13%;
-        width: 12rem;
-        height: 12rem;
-    }
-    .circlel:hover{
-        cursor: pointer;
-        font-size: 85px;
-    }
-    .circler:hover{
-        cursor: pointer;
-        font-size: 85px;
-    }
-    .circler{
-        font-size: 85px;
-        margin-top: -13%;
-        width: 12rem;
-        height: 12rem;
-    }
-
-    .logo{
-        width: 80%;
-        padding-right: 25%;
-    }
-    #gallery .graybox{
-        width: 150%;
-    }
-
-    .nav-item a{
-        font-size: 3.5rem;
-    }
-    #gallery h1{
-        margin-top: 35%;
-        margin-right: 15%;
-        font-size: 6rem;
-    }
-    .textX{
-        font-size: 10rem;
-    }
-    .title .sub-headline {
-        margin-top: -11%;
-        font-size: 10rem;
-    }
-    .title .textopeque{
-        font-size: 6rem;
-    }
-    .title{
-        height: 30%;
-        overflow-y: hidden;
-        margin-bottom: -4%;
-    }
-
-    .horzScroll{
-        margin-top: 20%;
-    }
-    #gallery{
-        max-width: 28%;
-        padding-right: 5%;
-        height: 2350px;
-        max-height: 300%;
-    }
-
-}
-@media screen and (min-width: 2500px){
-    .swiper-container{
-     
-        height: 600px;
-    }
-    .swiper-slide{
-      height: 600px;
-    }
-    .swiper-slide img{
-        width: 800px;
-    }
-
-    #gallery div{
-        width: 100%;
-        height: 38vh;
-    }
-
-    .logo{
-        width: 90%;
-        padding-right: 25%;
-    }
-    .nav-item{
-        justify-content: center;
-    }
-    .nav-item a{
-        margin-top: 8%;
-        font-size: 3.5rem;
-    }
-    #gallery h1{
-        margin-top: 0%;
-        margin-right: -7%;
-        font-size: 8rem;
-    }
-    .textX{
-        font-size: 10rem;
-    }
-    .title .sub-headline {
-        margin-top: -11%;
-        font-size: 10rem;
-    }
-    .title .textopeque{
-        font-size: 6rem;
-    }
-    .title{
-        height: 30%;
-        overflow-y: hidden;
-        margin-bottom: -4%;
-    }
-    .horzScroll{
-        margin-top: 8%;
-    }
-
-    #gallery{
-        max-width: 30%;
-        padding-right: 5%;
-        height: 2850px;
+        @media screen and (max-width: 500px) {
+            font-size: 85px *$font-size;
+        }
     }
 }
 
@@ -2234,6 +2299,9 @@ height: 10vh;
             color: #ffffff;
             padding-top: 5%;
             font-size: 2.7em;
+            @media screen and (max-width: 500px) {
+                font-size: 2.7em *$font-size;
+            }
 
             -webkit-transition: padding-top 0.5s 0.5s, opacity 0.4s 0.6s;
         }
@@ -2312,6 +2380,9 @@ height: 10vh;
             font-size: 3.5em;
             font-weight: bolder;
             text-align: center;
+            @media screen and (max-width: 500px) {
+                font-size: 3.5em *$font-size;
+            }
         }
     }
 
@@ -2327,12 +2398,18 @@ height: 10vh;
             font-weight: 400;
             text-align: center;
             margin-bottom: 2em;
+            @media screen and (max-width: 500px) {
+                font-size: 3em *$font-size;
+            }
         }
 
         .form-instruction {
             color: #58585a;
             text-align: center;
             font-size: 1.6em;
+            @media screen and (max-width: 500px) {
+                font-size: 1.6em *$font-size;
+            }
 
             a {
                 color: #58585a;
@@ -2353,6 +2430,9 @@ height: 10vh;
                     color: #87878a;
                     font-size: 1.1em;
                     resize: none;
+                    @media screen and (max-width: 500px) {
+                        font-size: 1.1em *$font-size;
+                    }
                 }
 
                 .add-file {
@@ -2363,6 +2443,9 @@ height: 10vh;
                     right: 3em;
                     color: #87878a;
                     font-size: 1.3em;
+                    @media screen and (max-width: 500px) {
+                        font-size: 1.3em *$font-size;
+                    }
                 }
             }
 
@@ -2370,26 +2453,41 @@ height: 10vh;
             textarea::-webkit-input-placeholder {
                 color: #87878a;
                 font-size: 1.6em;
+                @media screen and (max-width: 500px) {
+                    font-size: 1.6em *$font-size;
+                }
             }
 
             textarea:-moz-placeholder { /* Firefox 18- */
                 color: #87878a;
                 font-size: 1.6em;
+                @media screen and (max-width: 500px) {
+                    font-size: 1.6em *$font-size;
+                }
             }
 
             textarea::-moz-placeholder { /* Firefox 19+ */
                 color: #87878a;
                 font-size: 1.6em;
+                @media screen and (max-width: 500px) {
+                    font-size: 1.6em *$font-size;
+                }
             }
 
             textarea:-ms-input-placeholder {
                 color: #87878a;
                 font-size: 1.6em;
+                @media screen and (max-width: 500px) {
+                    font-size: 1.6em *$font-size;
+                }
             }
 
             textarea::placeholder {
                 color: #87878a;
                 font-size: 1.6em;
+                @media screen and (max-width: 500px) {
+                    font-size: 1.6em *$font-size;
+                }
             }
 
             .inputs {
@@ -2399,6 +2497,9 @@ height: 10vh;
                     border: none;
                     font-size: 1.3em;
                     margin-bottom: 1em;
+                    @media screen and (max-width: 500px) {
+                        font-size: 1.3em *$font-size;
+                    }
                 }
 
                 button {
@@ -2409,6 +2510,9 @@ height: 10vh;
                     color: white;
                     font-size: 1.3em;
                     border: none;
+                    @media screen and (max-width: 500px) {
+                        font-size: 1.3em *$font-size;
+                    }
                 }
             }
         }
@@ -2429,10 +2533,37 @@ height: 10vh;
 	margin-top: 1em;
 	width: 14em;
 	font-weight: bold;
+    @media screen and (max-width: 500px) {
+        font-size: 2rem *$font-size;
+    }
 }
 
 
+ul.a {
+    list-style-type: circle;
+    color: #fff;
+    font-size: 3em;
+    @media screen and (max-width: 500px) {
+        font-size: 3em *$font-size;
+    }
+}
 
-
+.footer .img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
 
 
